@@ -1,0 +1,9 @@
+2013-02-21  Yanis Guenane <yguenane@gmail.com> - 0.0.6
+
+  * Simplified the module as its maximum
+  * Removed useless dependencies
+  * Added test suite
+
+2012-09-13  Yanis Guenane  <yguenane@gmail.com> - 0.0.5
+
+  *

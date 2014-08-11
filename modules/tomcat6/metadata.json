@@ -1,0 +1,59 @@
+{
+  "name": "yguenane-tomcat6",
+  "version": "0.0.6",
+  "source": "https://github.com/Spredzy/puppet-tomcat6",
+  "author": "Yanis Guenane",
+  "license": "Apache v2",
+  "summary": "A puppet module that installs tomcat6 on EL/Debian platforms",
+  "description": "This module aims to install tomcat6 on EL/Debian platforms using their respective package managers",
+  "project_page": "https://github.com/Spredzy/puppet-tomcat6",
+  "dependencies": [
+    {
+      "name": "stahnma/epel",
+      "version_requirement": ">= 0.0.6"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "CHANGELOG": "0dae0fab93bfa5f5d1704be5ff28af9f",
+    "Gemfile": "f8adef44dee2065e65667a9903a10f8f",
+    "Gemfile.lock": "26cac01de30dae61a29229c7ecf4ec23",
+    "LICENSE": "dd8319aaaf14982bf0c14fe207cfc7f1",
+    "Modulefile": "b79cdf6e39ce5f089c1f29d85061c8d9",
+    "README.md": "d70ccc4281616025dab4192cec07d269",
+    "Rakefile": "3b68a4f743f51eab86587638e6b35d8d",
+    "manifests/init.pp": "7a5a2ca07126438a37ecd1f52511e24d",
+    "manifests/params.pp": "b784e35fabc2f160559a4bc07e80f124",
+    "spec/classes/tomcat6_spec.rb": "511d32c5e6d24879e5007833a9256690",
+    "spec/fixtures/manifests/site.pp": "d41d8cd98f00b204e9800998ecf8427e",
+    "spec/fixtures/modules/epel/Gemfile": "3189476f30a99858b367d955298fe469",
+    "spec/fixtures/modules/epel/Modulefile": "fc3037e6a4c4db5b1672861ab4ac3139",
+    "spec/fixtures/modules/epel/README.md": "98a664e1ca4017d7777a12311c3f38db",
+    "spec/fixtures/modules/epel/Rakefile": "946eced163d7f8e0da85bda4baa7fa9c",
+    "spec/fixtures/modules/epel/files/RPM-GPG-KEY-EPEL-5": "0466c259781def56dafe0a2cdc9de0c5",
+    "spec/fixtures/modules/epel/files/RPM-GPG-KEY-EPEL-6": "d865e6b948a74cb03bc3401c0b01b785",
+    "spec/fixtures/modules/epel/lib/facter/os_maj_version.rb": "806fb856251b605df379e973c716a41c",
+    "spec/fixtures/modules/epel/manifests/init.pp": "160e7210109cc32393051076ac4c54fa",
+    "spec/fixtures/modules/epel/manifests/params.pp": "aa4f9b256e829d59f233f499799b42aa",
+    "spec/fixtures/modules/epel/manifests/rpm_gpg_key.pp": "69086f12752a14b200e462afaa59a93c",
+    "spec/fixtures/modules/epel/spec/classes/epel_spec.rb": "7e8e5973fdccb866e91ed00a3fd0af4c",
+    "spec/fixtures/modules/epel/spec/classes/shared_base.rb": "861e3e39176e8fc09cfa572cb7f32e1c",
+    "spec/fixtures/modules/epel/spec/classes/shared_debuginfo.rb": "6009b4cc1dec7e53cdf41d53eb9ba753",
+    "spec/fixtures/modules/epel/spec/classes/shared_gpgkey.rb": "38a62fe24acfc9cc8d740d242c9f1c85",
+    "spec/fixtures/modules/epel/spec/classes/shared_source.rb": "9e17f66cf7a550451dc08b6ffd570550",
+    "spec/fixtures/modules/epel/spec/classes/shared_testing.rb": "a13221cd9d6024cf7be758faf0c438f5",
+    "spec/fixtures/modules/epel/spec/classes/shared_testing_debuginfo.rb": "5fc065cbf5339659d02a19b6ccce0e86",
+    "spec/fixtures/modules/epel/spec/classes/shared_testing_source.rb": "1f17f481b4bdc1a76d084d839caceb31",
+    "spec/fixtures/modules/epel/spec/defines/rpm_gpg_key_spec.rb": "489fa716eaa2aba013089a6cf552c5a6",
+    "spec/fixtures/modules/epel/spec/spec_helper.rb": "88667619511f33dc595d65232351d61c",
+    "spec/fixtures/modules/epel/spec/spec_helper_system.rb": "d24a7ffdf4b67dbbd3ef5687292f51cf",
+    "spec/fixtures/modules/epel/spec/system/basic_spec.rb": "bc475b95f390134b31d905590bf8b039",
+    "spec/fixtures/modules/epel/spec/system/usage_spec.rb": "04506df5627ecbe975acd1fd0407ae40",
+    "spec/fixtures/modules/epel/spec/unit/facter/os_maj_version_spec.rb": "67ab2730991d4a8430f1115aad46bcea",
+    "spec/fixtures/modules/epel/tests/init.pp": "7c69b7adf2ba141cb62cfc9e0704d59e",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates/tomcat6.erb": "f69dd73cdbef0fa2d8e15c6f49c1abd9"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            task
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div class="wrapper">
+            <section class="note-wrapper">
+                <h2>
+                    WHAT DO YOU HAVE TO SAY ABOUT ?
+                </h2>
+                <h1>
+                The Big Apple ?
+                </h1>
+                <div class="note-content">
+                    <div class="title">
+                        <input type="text" placeholder="Give a title" id="title-node"></input>
+                        <label id="title-label"></label>
+                    </div>
+                    <div class="description">
+                        <textarea placeholder="What would you like to say" id="desc-node"></textarea>
+                        <label id="desc-label"></label>
+                    </div>
+                    <div onclick="addNote()" class="button" id="btn-submit">
+                    SUBMIT
+                    </div>
+                </div>
+            </section>
+            <section class="list-wrapper"> 
+            </section>
+            <footer>
+            
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
